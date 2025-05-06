@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prozornica – Kreativni edukativni centar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Quicksand&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background-color: #fffaf3;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #f26522;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      font-family: 'Baloo 2', cursive;
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #f26522;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .program-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+
+    .program-card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      width: 280px;
+      text-align: center;
+      padding: 1.5rem;
+      transition: transform 0.3s ease;
+    }
+
+    .program-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .program-card img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 1rem;
+    }
+
+    .program-card h3 {
+      color: #f26522;
+      font-size: 1.3rem;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background-color: #f26522;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 30px;
+      font-size: 1.2rem;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 1.5rem;
+    }
+
+    footer {
+      background-color: #f26522;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Prozornica</h1>
+    <p>Kreativni edukativni centar za decu od 4 do 14 godina</p>
+  </header>
+
+  <section>
+    <h2>Dobrodošli!</h2>
+    <p>
+      Prozornica je prostor otvorenog pogleda – mesto gde se deca uče da misle, osećaju, stvaraju i izražavaju se. Naš pristup kombinuje igru, umetnost i savremene pedagoške metode kako bismo pružili deci sigurnost, podršku i inspiraciju.
+    </p>
+    <p>
+      U radionicama razvijamo empatiju, kritičko mišljenje, govorne i pisane veštine, i sposobnost izražavanja emocija – sve to kroz igru i maštovit rad.
+    </p>
+  </section>
+
+  <section>
+    <h2>Naši programi</h2>
+    <div class="program-section">
+      <div class="program-card">
+        <img src="https://i.imgur.com/Hiv5xOG.jpeg" alt="Pisanje sastava" />
+        <h3>Pisanje sastava</h3>
+        <p>Radionica koja podstiče decu da pišu samostalno, jasno i kreativno. Učimo kako da izraze misli, povežu rečenice i razviju ideje u celinu.</p>
+      </div>
+      <div class="program-card">
+        <img src="https://i.imgur.com/N9xea54.jpeg" alt="Logopedske vežbe" />
+        <h3>Logopedske vežbe</h3>
+        <p>Kroz igru i specifične zadatke razvijamo izgovor, slušanje i komunikaciju. Radionice vodi stručni logoped.</p>
+      </div>
+      <div class="program-card">
+        <img src="https://i.imgur.com/jcp2lwL.jpeg" alt="Lutkarsko pozorište" />
+        <h3>Lutkarsko pozorište</h3>
+        <p>Deca glume, osmišljavaju dijaloge i stvaraju priče uz pomoć lutaka. Kroz igru razvijaju samopouzdanje i timski duh.</p>
+      </div>
+      <div class="program-card">
+        <img src="https://i.imgur.com/92iVoxK.jpeg" alt="Relax Kids" />
+        <h3>Relax Kids</h3>
+        <p>Program koji uvodi decu u tehnike opuštanja, dubokog disanja i mentalne stabilnosti. Idealno za prevenciju stresa i jačanje samopouzdanja.</p>
+      </div>
+      <div class="program-card">
+        <img src="https://i.imgur.com/fEzcqHa.jpeg" alt="Ekološke radionice" />
+        <h3>Ekološke radionice</h3>
+        <p>Kreativno učimo o prirodi, reciklaži, i odgovornosti prema planeti kroz konkretne aktivnosti i istraživanja.</p>
+      </div>
+      <div class="program-card">
+        <img src="https://i.imgur.com/YSdXd6T.jpeg" alt="Engleski kroz igru" />
+        <h3>Engleski jezik</h3>
+        <p>Učimo engleski kroz igru, pesmu, pokret i likovne aktivnosti. Bez stresa, bez pritiska – učenje postaje zabava!</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Poziv roditeljima</h2>
+    <p>
+      Ako prepoznajete da vaše dete ima kreativnu energiju, ali joj fali prostor i podrška, ako želite da kroz igru razvija jezik, izražavanje i emocionalnu stabilnost — mi smo tu.
+    </p>
+    <p>
+      <strong>Prozornica</strong> nije samo još jedan edukativni centar. Mi slušamo, pratimo, i zajedno sa decom stvaramo priču punu smisla.
+    </p>
+    <div style="text-align:center; margin-top: 2rem;">
+      <a href="mailto:prozornica.kreativno@gmail.com?subject=Prijava za radionice&body=Zdravo, želimo da se prijavimo na radionice. Možete li nam poslati više informacija?"
+         class="cta-button">Prijavi se</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>📍 Kosovska BB, Vranje | 📞 064 372 2673 | 📧 prozornica.kreativno@gmail.com</p>
+  </footer>
+
+</body>
+</html>
